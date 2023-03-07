@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items:first center;
+}
+.item {
+    background: cornflowerblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item:nth-child(2) {
+    background-color: rgb(58, 32, 145);
+    flex-grow: 2;
+    object-fit: cover; 
+}
+
+.item:nth-child(2) img {
+    width:100%;
+    object-fit: cover;
+}
+
+img {    
+    width: 400px;
+    height: 250px;
+}
+
+.site-select {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 20, 93);
+    color: white;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+ p {
+    font-size: 25px;
+ }
